@@ -1,11 +1,12 @@
 #include "MyStack.h"
 int main() {
-	MyStack s;
-	s.push(1);
-	s.push(2);
-	s.pop();
-	s.push(3);
-	s.push(4);
-	s.print();
+	MyStack<int> sInt;
+	MyStack<float> sFloat;
+	for (int i = 0; i < 10; i++) {
+		sInt.push(i);
+		sFloat.push((float)i * 0.1);
+	}
+	sInt.print();
+	sFloat.print();
 	return 0;
 }

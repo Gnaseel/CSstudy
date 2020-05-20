@@ -1,2 +1,7 @@
-﻿  MyStack.cpp
+﻿  main.cpp
+C:\Users\leesanghyeon\Documents\CSstudy\Gnaseel\DataStructure_Ganseel\DataStructure_Ganseel\main.cpp(7,24): warning C4244: '인수': 'double'에서 'T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\leesanghyeon\Documents\CSstudy\Gnaseel\DataStructure_Ganseel\DataStructure_Ganseel\main.cpp(7,24): warning C4244:         with
+C:\Users\leesanghyeon\Documents\CSstudy\Gnaseel\DataStructure_Ganseel\DataStructure_Ganseel\main.cpp(7,24): warning C4244:         [
+C:\Users\leesanghyeon\Documents\CSstudy\Gnaseel\DataStructure_Ganseel\DataStructure_Ganseel\main.cpp(7,24): warning C4244:             T=float
+C:\Users\leesanghyeon\Documents\CSstudy\Gnaseel\DataStructure_Ganseel\DataStructure_Ganseel\main.cpp(7,24): warning C4244:         ]
   DataStructure_Ganseel.vcxproj -> C:\Users\leesanghyeon\Documents\CSstudy\Gnaseel\DataStructure_Ganseel\Debug\DataStructure_Ganseel.exe
