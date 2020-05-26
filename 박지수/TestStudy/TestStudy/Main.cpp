@@ -2,17 +2,20 @@
 #include "MyStack.h"
 //#include "MyVector.h"
 using namespace std;
+
 int main() {
 
-	MyStack s;
-	s.push(1);
-	cout << s.peek() << endl;
-	s.push(2);
-	cout << s.peek() << endl;
-	s.push(3);
+	MyStack<string> s;
+	s.push("dd");
+
+	s.push("ee");
+
+	s.push("qq");
 	s.pop();
-	cout << s.peek() << endl;
-	s.push(4);
+	s.push("bb");
+	s.push("uu");
+	s.push("oo");
+	s.push("4");
 	s.print();
 	return 0;
 	
